@@ -10,4 +10,5 @@ version 1.0
 version 1.1
 -
 * Changed mechanic of inventory from lists to dicts
-* 
+* Added new optimization to inventory
+* Added button for clear all inventory
