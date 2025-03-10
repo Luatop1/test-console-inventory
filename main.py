@@ -12,7 +12,8 @@ file_data = {
     "8": "inventory_data/8slot.txt",
     "9": "inventory_data/9slot.txt"
 }
-
+file0 = open("inventory_data/1slot.txt", "w")
+file0.write("abc")
 def open_inventory():
     for i in file_data:
         file = open(file_data[i], "r")
